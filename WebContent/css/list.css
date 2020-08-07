@@ -1,0 +1,23 @@
+.list {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+.list tr {
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+.list tr:hover {
+	background: #eee;	
+	transition: background-color 0.2s;
+}
+.list tr th {
+    background: #eee;
+    padding: 0.5rem;
+}
+.list tr td {
+    padding: 0.5rem;
+}
+.list tr td:nth-child(2) {
+    width: 50%;
+}

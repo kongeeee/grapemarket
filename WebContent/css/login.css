@@ -1,0 +1,18 @@
+.login_form {
+    display: flex;
+    flex-direction: column;
+}
+.login_form .input_box {
+    margin: 0.5rem 1rem;
+    width: 15rem;
+}
+.login_form .input_button {
+    margin: 0.5rem 1rem;
+    height: 3rem;
+}
+.login_check {
+    display: flex;
+}
+.pswd_check {
+    margin-left: 1rem;
+}

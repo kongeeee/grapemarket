@@ -1,0 +1,75 @@
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+.post {
+    width: 60%;
+    border-collapse: collapse;
+}
+.post tr td {
+    padding: 0.5rem 0;
+}
+.dropdown {
+	position: relative;
+}
+.dropdown_content {
+	display: none;
+	position: absolute;
+	background: #f9f9f9;
+	min-width: 10rem;
+	box-shadow: 0px 8px 16px 9px rgba(0,0,0,0.2);
+	padding:0.75rem 1rem;
+	z-index: 1;
+}
+.dropdown:hover .dropdown_content {
+	display: block;
+}
+.comment {
+    width: 40%;
+    margin: 1rem;
+}
+
+.comment_form {
+    
+    display: flex;
+    flex-direction: column;
+}
+.comment_form textarea {
+    min-height: 4rem;
+    resize: vertical;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    outline: none;
+}
+.comment_form textarea:focus {
+    box-shadow: 0 1px 3px 1px #ddd;
+}
+.comment_form input {
+    align-self: flex-end;
+    margin: 0.5rem 0;
+    padding: 0.25rem 2rem;
+}
+
+.comment_box {
+    background: #ffeeff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+}
+.comment_box .content {
+}
+.comment_box div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.comment_box div div {
+    font-size: 0.7rem;
+    color: #ccc;
+    margin-right:0.5rem;
+}
+.comment_box .date {
+    margin-right: auto;
+}

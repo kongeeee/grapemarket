@@ -1,0 +1,83 @@
+.mypage .popup_container {
+	padding: 0;
+    display: block;
+    width: 22rem;
+}
+.mypage .popup_container table tr td input{
+	width: 11rem;
+}
+.user {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background: #ccaddc;
+}
+.user i {
+	color: white;
+}
+td {
+    font-size: 0.8rem;
+    padding: 0.25rem 1rem;
+}
+.score {
+    display: flex;
+    flex-direction: row;
+}
+.circle {
+    width: 5rem;
+    height: 5rem;
+    background: white;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+    margin: 2rem 0 0 2rem;
+}
+.disc {
+    background: #fafafa;
+    border-radius: 100%;
+    width: 3.5rem;
+    height: 3.5rem;
+    position: absolute;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.up {
+    background: seagreen;
+    margin-top: auto;
+    height: 50%;
+    width: 100%;
+}
+.down {
+    background: red;
+    margin-top: auto;
+    height: 50%;
+    width: 100%;
+}
+.score ul {
+    list-style: none;
+    
+}
+.score ul li {
+    margin: 1rem 0;
+}
+
+.submit {
+    margin: 1rem;
+    margin-top: auto;
+    float: right;
+}
+.close {
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+}
+.test {
+    display: flex;
+}
+.test div {
+    margin: 0 3rem;
+}
